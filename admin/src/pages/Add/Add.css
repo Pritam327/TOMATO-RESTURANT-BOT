@@ -1,0 +1,123 @@
+/* .add{
+    width: 70%;
+    margin-left: max(5vw,25px);
+    margin-top: 50px;
+    color: bisque;
+    font-size: 16px;
+}
+.add form{
+    gap:20px;
+}
+.add-img-upload img{
+    width: 120px;
+}
+.add-product-name, .add-product-description{
+    width: max(40%,280px);
+}
+.add-product-name input, .add-product-description textarea{
+    padding: 10px;
+}
+.add-category-price{
+    display: flex;
+    gap: 30px;
+}
+.add-category-price select, .add-category-price input{
+    max-width: 120px;
+    padding: 10px;
+}
+.add-btn{
+    max-width: 120px;
+    background-color: black;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    border: none;
+} */
+
+
+
+
+.add {
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 16px;
+}
+
+.add form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.add-img-upload {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add-img-upload img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.add-product-name,
+.add-product-description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.add-product-name input,
+.add-product-description textarea {
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-category-price {
+    display: flex;
+    gap: 40px;
+}
+
+.add-category,
+.add-price {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add-category select,
+.add-price input {
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.add-btn {
+    width: 150px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.add-btn:hover {
+    background-color: #333;
+}
